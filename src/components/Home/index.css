@@ -1,0 +1,179 @@
+
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    align-items: center;
+    padding: 8px 22px 8px 22px;
+    height: 60px;
+}
+
+.home-header,.home-dashboard{
+    font-size: 17px;
+    font-weight: 400;
+    align-items: center;
+    display: flex;
+    
+}
+.list-one,.list-two,.list-1,.list-2,.list-3{
+    height: 33px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    font-weight: 400;
+}
+.services-ul,.Others{
+    list-style-type:none;
+    width:200px;
+    font-weight: 500;
+    padding-right: 114px;
+   
+    
+}
+
+.left-side{
+    width:230px;
+    box-shadow: 0.5px 0px 0px 0.5px gainsboro;
+    padding: 22px;
+    height: 100vh;
+}
+
+.home-page-left-content{
+    padding-left:0px;
+    width: 130px;
+}
+.left-side-selection{
+    width: 110px;
+}
+
+.airports-add-item-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 94%;
+    padding-inline:22px;
+    box-sizing: border-box;
+}
+
+.home-page{
+    display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+       
+}
+
+.right-side{
+    width:100%;
+    height: 800px;
+}
+
+.add-new-button{
+    width:96px;
+    height:32px;
+    background-color: black;
+    color:aliceblue;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.table-header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+
+.table-header-content{
+    display:flex;
+    width: 300px;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.airports-list{
+    padding-left:22px;
+}
+
+.each-airport-conatiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.checkbox-for-each-airport{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width:300px;
+    
+}
+
+.each-airport-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 270px;
+}
+
+.edit-delete{
+    width:88px;
+    
+}
+
+.each-card{
+    width:90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.1em solid rgb(245, 234, 234);
+}
+
+.country{
+    width:88px;
+}
+.code{
+    width:44px;
+}
+.terminals{
+    width:44px;
+}
+
+.delete-button{
+    border: 0px;
+    cursor: pointer;
+}
+
+.show{
+    display: block;
+}
+.hide{
+    display: none
+}
+
+.add-airport-name,.add-airport-country,.add-airport-code{
+    width:200px;
+    height:33px;
+    border: 0.1em solid rgb(103, 53, 53);
+    border-radius: 5px;
+    margin-left:22px;
+    padding-left: 8px;
+    
+}
+
+.cancel,.submit{
+    width:88px;
+    height:32px;
+    background-color: rgb(7, 7, 7);
+    color:aliceblue;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
